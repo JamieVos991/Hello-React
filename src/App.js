@@ -6,9 +6,8 @@ import "./App.css";
 const App = () =>{
     return(
         <>
-            <Card />        
-            <Card2 />        
-            <Card3 />   
+            <Card title="Eerste kaart" text="Lorem ipsum, asdasdasdasdasdasd"/>    
+                   
         </>     
     );
 }

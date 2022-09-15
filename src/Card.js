@@ -1,8 +1,9 @@
 import "./Card.css";
 
-const Card = () => {
+const Card = (props) => {
     const hallo = () => {
         console.log("Ik ben kaartje A");
+        console.log(props);
     }
     
     return (
